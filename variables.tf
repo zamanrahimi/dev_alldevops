@@ -1,4 +1,4 @@
-# zaman
+# zaman1
 provider "aws" {
   region     = "us-east-1"
   access_key = "AKIAXLW2ED6IHJ7A2HMP"
@@ -14,6 +14,6 @@ variable "keyname" {
 # push changes to dev repository in github
 resource "null_resource" "run_script" {
   provisioner "local-exec" {
-    command = "dev_alldevops.sh"
+    command = "D:/tutorial/aws/alldevops/dev/dev_alldevops.bat"
   }
 }
