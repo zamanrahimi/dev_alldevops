@@ -1,2 +1,4 @@
+.gitignore
 .terraform/
+dev/.terraform/
 dev_alldevops.bat
