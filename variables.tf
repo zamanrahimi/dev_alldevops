@@ -1,3 +1,4 @@
+# zaman
 provider "aws" {
   region     = "us-east-1"
   access_key = "AKIAXLW2ED6IHJ7A2HMP"
@@ -13,6 +14,6 @@ variable "keyname" {
 # push changes to dev repository in github
 resource "null_resource" "run_script" {
   provisioner "local-exec" {
-    command = "./example.sh"
+    command = "dev_alldevops.sh"
   }
 }
