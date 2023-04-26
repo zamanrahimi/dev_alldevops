@@ -14,6 +14,6 @@ variable "keyname" {
 # push changes to dev repository in github
 resource "null_resource" "run_script" {
   provisioner "local-exec" {
-    command = "D:/tutorial/aws/alldevops/dev/dev_alldevops.bat"
+    command = ".\dev_alldevops.bat"
   }
 }
