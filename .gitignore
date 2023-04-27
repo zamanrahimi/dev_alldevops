@@ -1,4 +1,5 @@
 .gitignore
 .terraform/
 dev/.terraform/
+dev/variables.tf
 dev_alldevops.bat
