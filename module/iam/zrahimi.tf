@@ -13,7 +13,7 @@ resource "aws_iam_access_key" "access_key_zaman" {
   user = aws_iam_user.zrahimi.name
 }
 
-data "aws_iam_policy_document" "policy_name" {
+data "aws_iam_policy_document" "policy_for_zrahimi" {
   statement {
     effect    = "Allow"
     actions   = ["*"]
