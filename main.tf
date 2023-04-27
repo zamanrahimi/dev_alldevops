@@ -1,3 +1,3 @@
-module "vpc" {
+module "dev" {
   source  = "./dev/"
 }
